@@ -78,7 +78,7 @@ struct StudentRegistrationView: View {
             .padding()
         }
         .navigationTitle("Student Registration")
-        .navigationBarHidden(true)
+       // .navigationBarHidden(true)
         .background(
             NavigationLink(
                 destination: CreateAccountView(
